@@ -299,6 +299,7 @@
                 data: formData,
                 type: 'POST',
                 url: '/submit', 
+                
                 data: $('#dataserv').serialize(),
                 success: function(response) {
                     if (response.mostrarQuestionario) {
@@ -316,6 +317,8 @@
                 },
                 error: function(xhr, status, error) {
                     alert('Erro ao enviar o formulário: ' + error);
+
+                window.location.href = `/proximaPagina?totalPoliciais=${totalPoliciais}`;
                 }
             });
         });
