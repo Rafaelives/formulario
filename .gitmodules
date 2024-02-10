@@ -1,6 +1,6 @@
 [submodule "alpinehelloworld"]
     path = alpinehelloworld
-    url = <URL_DO_REPOSITORIO_REMOTO_DO_ALPINEHELLOWORLD>
+    url = <URL_CORRETO_DO_REPOSITORIO_REMOTO_DO_ALPINEHELLOWORLD>
 [submodule "python-docker"]
     path = python-docker
-    url = <URL_DO_REPOSITORIO_REMOTO_DO_PYTHON-DOCKER>
+    url = <URL_CORRETO_DO_REPOSITORIO_REMOTO_DO_PYTHON-DOCKER>
